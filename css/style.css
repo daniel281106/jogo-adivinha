@@ -1,0 +1,129 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+::root{
+  font-size: 65.2%;
+}
+body{
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(45deg, #4F200D, #FF8400);
+}
+p{
+  color: white;
+  text-shadow: .1rem 0.05rem .0rem black,.1rem 0.05rem .0rem black,.1rem 0.05rem .0rem black,.1rem 0.05rem .0rem black;
+  line-height: 2;
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+h1{
+  color: white;
+  text-shadow: .2rem .1rem black,.2rem .1rem black,.2rem .1rem black;
+  line-height: 0.85;
+  font-weight: 900;
+  font-size: 2.9rem;
+}
+.screen1{
+  box-shadow: -.2rem .2rem 0.6rem black,-.1rem .1rem 0.4rem black,-.2rem .2rem 0.6rem black;
+  padding: 1.6rem;
+  background-color: #FFD93D;
+  height: 20.0rem;
+  width: 30.0rem;
+  border-radius: .6rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.form1{
+  box-shadow: inset 0rem 0rem .5rem black,inset 0rem 0rem .3rem black,inset 0rem 0rem .2rem black ;
+  height: 36.0rem;
+  width: 25.0rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  margin-top: 1.0rem;
+  padding: 1.6rem;
+}
+.screen2{
+  box-shadow:inset -.0rem .0rem 0.6rem black,inset -.0rem .0rem 0.5rem black,-.2rem .2rem 0.5rem black;
+  background:#FFD93D;
+  display: flex;
+  padding: 1.6rem;
+  align-items: center;
+  flex-direction: column;
+  height: 15.0rem;
+  width: 38.0rem;
+  border: none;
+  transition: box-shadow 0.5s ease-in-out;
+
+}
+.form2{
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 5rem;
+  width: 25.0rem;
+}
+h2{
+  
+  font-size: 2rem;
+  font-weight: 900;
+}
+#inputbox{
+  color: black;
+  text-shadow: .2rem .1rem rgb(255, 255, 255)rgb(255, 255, 255) .1rem rgb(255, 255, 255),.1rem .1rem rgb(255, 255, 255);
+  text-align: end;
+  box-shadow: inset 0rem .0rem .6rem black,inset 0rem .0rem .5rem black,inset 0rem .0rem .4rem black;
+  outline: none;
+  border: none;
+  border-radius: 0.4rem;
+  height: 3.5rem;
+  width: 16.0rem;
+  font-size: 1.5rem;
+  background:#FFD93D;
+}
+#bntreset{
+  color: white;
+  text-shadow:-.1rem .1rem 0rem black,-.1rem .1rem 0rem black,-.1rem .1rem 0rem black;
+  box-shadow: -.2rem .2rem .6rem black,-.2rem .2rem .6rem black,inset -.2rem .2rem .1rem white ;
+  margin-top: .5rem;
+  font-size: 2rem;
+  background-color: #FF8400;
+  margin-top: .5rem;
+  border: none;
+  height: 4rem;
+  width: 20.0rem;
+  border-radius: .6rem;
+  transition: box-shadow 0.5s ease-in-out;
+}
+#bnttry{
+  color: white;
+  text-shadow:-.1rem .1rem 0rem black,-.1rem .1rem 0rem black,-.1rem .1rem 0rem black;
+  font-size: 2rem;
+  background-color: #FF8400;
+  box-shadow: -.2rem .2rem .6rem black,-.2rem .2rem .6rem black,inset -.2rem .2rem .1rem white ;
+  margin-top: .5rem;
+  border: none;
+  height: 4rem;
+  width: 15.0rem;
+  border-radius: .6rem;
+  transition: all 1s ease-in-out;
+}
+#bnttry:active{
+  box-shadow: inset 0rem 0rem 0.6rem black,inset 0rem 0rem 0.6rem black;
+}
+#bntreset:active{
+  box-shadow: inset 0rem 0rem 0.6rem black,inset 0rem 0rem 0.6rem black;
+}
+.hide {
+  display: none;
+}
+
+
